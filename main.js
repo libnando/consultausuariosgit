@@ -50,23 +50,22 @@ const main = () => {
 
         }, false);
 
+        search.addEventListener("keydown", (evt) => {
+
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                btn.click();
+                return false;
+            }            
+
+        });
+
         btnRepos.addEventListener('click', () => {
 
             let userLogin = document.getElementById("drepo-tab").getAttribute("data-user");
             searchApi(userLogin).findRepos(_viewRepos);
 
         }, false);
-
-        search.addEventListener("keyup", (evt) => {
-
-            evt.preventDefault();
-
-            if (evt.keyCode === 13) {
-                btn.click();
-            }
-
-        }, false);
-
 
     };
 
