@@ -1,0 +1,52 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+}
+
+#aKindOfMagic {
+    min-height: 40px;
+}
+
+.img-thumbnail {
+    width: 80px;
+    height: 80px;
+}
+
+#avatar,
+#user-detail,
+#drepo {
+    margin: 20px 0 0 0;
+}
+
+#drepo {
+    height: 300px;
+}
+
+#drepo {
+    overflow-y: scroll;
+}
+
+#user-detail {
+    border: 1px solid #DDD;
+    padding: 20px;
+}
+
+#user-detail div {
+    font-weight: bold;
+}
+
+.min-chars {
+    font-size: 11px;
+    color: #888;
+}
+
+tr td:last-child,
+tr th:last-child {
+    text-align: right;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
