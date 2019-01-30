@@ -24,6 +24,7 @@ const main = () => {
 
         document.getElementById("drepo-tab").setAttribute("data-user", data.login);
         document.getElementById("avatar").src = data.avatar_url;
+        document.getElementById("name").innerHTML = data.name;
         document.getElementById("followers").innerHTML = data.followers;
         document.getElementById("following").innerHTML = data.following;
         document.getElementById("email").innerHTML = data.email;
